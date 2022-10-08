@@ -45,4 +45,7 @@ public class Sorter {
             arr[j + 1] = key;
         }
     }
+    public void sort(int[]arr){
+        insertionSoret(arr);
+    }
 }
